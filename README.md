@@ -1,46 +1,66 @@
-# Getting Started with Create React App
+# React + TypeScript Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the React + TypeScript application! This project is built using React and TypeScript.
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+Follow these steps to get the project up and running on your local machine:
 
-### `yarn start`
+## Clone the Repository 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+   First, clone this repository to your local machine using the following command:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+   ```bash
+   git clone https://github.com/imvsr-0609/manufac-assignment.git
+   ```
 
-### `yarn test`
+## Navigate to the Root Directory:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Change your current directory to the project's root directory using the cd command:
+   ```bash
+cd manufac-assignment
+   ```
+## Install Dependencies:
 
-### `yarn build`
+**Install the project's dependencies using yarn:**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ ```bash
+yarn install
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Start the Application:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+After the installation is complete, start the development server:
 
-### `yarn eject`
+ ```bash
+yarn start
+   ```
+This command will start the React application and open it in your default web browser. You can access it at http://localhost:3000.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Project Structure
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Briefly describe the structure of your project, including key directories and files. You can include a tree structure or a high-level overview.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+project/
+├── src/
+│   ├── components/
+│   │   └── ...
+│   ├── App.tsx
+│   └── index.tsx
+├── public/
+│   ├── index.html
+│   └── ...
+├── package.json
+├── README.md
+└── ...
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## License
+This project is licensed under the License Name - see the LICENSE file for details.
 
-## Learn More
+```
+In the above template, replace `<repository-url>` with the actual URL of your Git repository and `project-directory` with your project's directory name.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Make sure you create a `CONTRIBUTING.md` file and a `LICENSE` file in your project directory if you plan to include guidelines for contributors and specify a license.
+```

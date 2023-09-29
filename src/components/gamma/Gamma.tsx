@@ -21,7 +21,7 @@ const Gamma: FC = () => {
 	return (
 		<div>
 			<h1>Gamma</h1>
-			<TableComponent data={gammaData} />
+			<TableComponent data={gammaData} property="Gamma" />
 		</div>
 	);
 };

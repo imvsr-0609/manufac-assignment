@@ -15,7 +15,7 @@ const Flavanoids: FC = () => {
 	return (
 		<div>
 			<h1>Flavanoid</h1>
-			<TableComponent data={flavanoidData} />
+			<TableComponent data={flavanoidData} property="Flavanoid" />
 		</div>
 	);
 };

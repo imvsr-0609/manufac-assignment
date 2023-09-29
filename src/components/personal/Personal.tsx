@@ -18,7 +18,7 @@ const Personal: FC<PersonalProps> = ({
 }) => {
 	return (
 		<div className="personal-info">
-			<h2>Appplicant Information</h2>
+			<h1>Appplicant Information</h1>
 			<div className="info-item">
 				<span className="label">Name:</span>
 				<span>{name}</span>
