@@ -1,0 +1,24 @@
+.flexbox-table {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .table-header {
+    display: flex;
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+  
+  .table-cell {
+    flex: 1;
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+  
+  .table-row {
+    display: flex;
+  }
