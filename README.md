@@ -1,6 +1,6 @@
-# React + TypeScript Application
+# Manufac Assigment Application
 
-Welcome to the React + TypeScript application! This project is built using React and TypeScript.
+Welcome to the Manufac Assigment Application! This project is built using React and TypeScript as assignment for Manufac hiring.
 
 ## Getting Started
 
@@ -56,11 +56,6 @@ project/
 └── ...
 ```
 
-## License
-This project is licensed under the License Name - see the LICENSE file for details.
+## Screenshots
+![screenshot](manufac-sc.png)
 
-```
-In the above template, replace `<repository-url>` with the actual URL of your Git repository and `project-directory` with your project's directory name.
-
-Make sure you create a `CONTRIBUTING.md` file and a `LICENSE` file in your project directory if you plan to include guidelines for contributors and specify a license.
-```
